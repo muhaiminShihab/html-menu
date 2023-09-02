@@ -1,0 +1,114 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* default css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+svg {
+    width: 6%;
+    vertical-align: middle;
+}
+
+/* menu area css */
+.menu-area{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a{
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: .2s all ease-in-out;
+}
+
+.menu li a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 2px;
+}
+
+.menu .sub-menu{
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 250px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: left;
+    display: none;
+    z-index: 100;
+    box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+}
+
+.sub-menu li{
+    width: 100%;
+}
+
+.sub-menu li a{
+    display: block;
+    padding: 8px 15px;
+    border-bottom: 2px solid antiquewhite;
+}
+
+.menu li:hover .sub-menu {
+    display: block !important;
+}
+
+.sub-menu-2{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: left;
+    display: none;
+    z-index: 100;
+    box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+}
+
+.sub-menu li:hover .sub-menu-2 {
+    display: block !important;
+}
+
+.sub-menu-3{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 250px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: left;
+    display: none;
+    z-index: 100;
+    box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+}
+
+.sub-menu-2 li:hover .sub-menu-3 {
+    display: block !important;
+}
